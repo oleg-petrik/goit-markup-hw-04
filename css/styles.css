@@ -412,6 +412,7 @@ img {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .text-footer {
   font-weight: 400;
@@ -431,4 +432,5 @@ img {
 }
 .footer-middle {
   margin-left: 120px;
+  margin-right: 120px;
 }
