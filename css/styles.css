@@ -306,10 +306,12 @@ img {
   gap: 16px;
 }
 
-.footer-socials .socials-link:hover .socials-link:focus {
+.footer-socials .socials-link:hover {
   background-color: #31d0aa;
 }
-
+.footer-socials .socials-link:focus {
+  background-color: #31d0aa;
+}
 .socials-link {
   display: flex;
   align-items: center;
@@ -413,6 +415,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .text-footer {
   font-weight: 400;
@@ -432,5 +435,4 @@ img {
 }
 .footer-middle {
   margin-left: 120px;
-  margin-right: 120px;
 }
