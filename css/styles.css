@@ -306,7 +306,7 @@ img {
   gap: 16px;
 }
 
-.footer-socials .socials-link:hover {
+.footer-socials .socials-link:hover .socials-link:focus {
   background-color: #31d0aa;
 }
 
